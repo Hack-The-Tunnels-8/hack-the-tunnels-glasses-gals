@@ -19,6 +19,8 @@ function Navbar() {
           <>
             <button className="button1" onClick={() => navigate("/sign-up")}>Sign Up</button>
             <button className="button2" onClick={() => navigate("/login")}>Login</button>
+            <button className="button4" onClick={() => navigate("/Dark Mode")}>Dark Mode</button> 
+            /div
           </>
         ) : (
           <button className="button3" onClick={() => logout()}>Logout</button>

@@ -5,3 +5,16 @@
   border: 20px solid rgb(218, 243, 222) ;
   background-color: rgb(254, 255, 222);
 }
+
+
+.dark-mode {
+  background: #447;
+  color: #bbd;
+}
+@media (prefers-color-scheme: light) {
+  .dark-mode.adaptive {
+    background: #bcd;
+    color: #334;
+    outline: 5px dotted #000;
+  }
+}
