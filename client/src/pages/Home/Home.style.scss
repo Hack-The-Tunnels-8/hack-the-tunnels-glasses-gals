@@ -15,7 +15,9 @@
 
   &__products {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
 
     a {
       text-decoration: none;
