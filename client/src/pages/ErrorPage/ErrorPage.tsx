@@ -10,7 +10,7 @@ function ErrorPage() {
         <h1>404: Not Found hello</h1>
         <img src="https://media.tenor.com/mSZ8h7uCK1UAAAAd/aura-aurateur.gif" />
         <p style={{textAlign:"center"}}>
-              <Link to="/">Home</Link>
+              <Link to="/">Return to Home!</Link>
             </p>
       </div>
     </Page>
