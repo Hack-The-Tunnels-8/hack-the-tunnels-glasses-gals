@@ -1,14 +1,20 @@
 .product-preview-card {
   &__title {
     font-style: bold;
+    font-variant-caps: all-petite-caps;
     color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   &__description {
-    color: blue;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
-
+  
   &__image {
-    width: 10rem;
+    width: 15rem;
+    border: 5px solid #087008;
   }
 }
