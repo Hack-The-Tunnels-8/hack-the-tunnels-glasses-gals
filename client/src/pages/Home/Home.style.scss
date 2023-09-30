@@ -2,6 +2,15 @@
   &__title {
     color: red;
     font-family : 'Courier New', serif;
+
+    @keyframes colourChange {
+      from {background-color: black;}
+      to {background-color: grey;}
+    }
+      width: 90px;
+      background-color: black;
+      animation-name: colourChange;
+      animation-duration: 10s;
   }
 
   &__products {
