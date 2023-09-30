@@ -10,6 +10,7 @@ import {
   Login,
   Product,
   SignUp,
+  ErrorPage,
 } from "./pages";
 import { AccountProvider } from "./context";
 import "./index.scss";
@@ -45,9 +46,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <div>
-      <h1>404:Not Found</h1>
-      </div>,
+    element: <ErrorPage />,
   },
 ]);
 
