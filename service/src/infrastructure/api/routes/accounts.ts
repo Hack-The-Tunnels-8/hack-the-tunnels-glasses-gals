@@ -31,6 +31,7 @@ const signUp = async (request: Request, response: Response) => {
 };
 
 const login = async (request: Request, response: Response) => {
+  console.log(request.body)
   const result = await AuthenticationService.login(
     request.body.email,
     request.body.password,
