@@ -1,0 +1,16 @@
+  .checkout-page{
+        padding: 2rem;
+        color: green;
+    &__product{
+        color: green;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80px;
+    }
+      
+  }
+  .button1{
+    background-color:rgb(218, 243, 222);
+
+  }
