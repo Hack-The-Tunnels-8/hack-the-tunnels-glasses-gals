@@ -1,11 +1,11 @@
 .home-page {
   &__title {
-    color: red;
+    color: rgb(190, 246, 188);
     font-family : 'Courier New', serif;
 
     @keyframes colourChange {
-      from {background-color: black;}
-      to {background-color: grey;}
+      from {background-color: rgba(0, 0, 0, 0.471);}
+      to {background-color: rgba(128, 128, 128, 0.771);}
     }
       width: 90px;
       background-color: black;
