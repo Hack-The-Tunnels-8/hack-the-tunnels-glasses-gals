@@ -30,6 +30,7 @@ export const create = async (
 ): Promise<Product> => {
   const newProduct = await prisma.product.create({
     data: {
+    
       title: title,
       description: description,
       price: price,

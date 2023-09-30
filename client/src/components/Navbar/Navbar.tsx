@@ -17,11 +17,11 @@ function Navbar() {
       <div className="navbar__account">
         {loggedIn() === false ? (
           <>
-            <button onClick={() => navigate("/sign-up")}>Sign Up</button>
-            <button onClick={() => navigate("/login")}>Login</button>
+            <button className="button1" onClick={() => navigate("/sign-up")}>Sign Up</button>
+            <button className="button2" onClick={() => navigate("/login")}>Login</button>
           </>
         ) : (
-          <button onClick={() => logout()}>Logout</button>
+          <button className="button3" onClick={() => logout()}>Logout</button>
         )}
       </div>
     </div>
